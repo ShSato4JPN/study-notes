@@ -56,6 +56,8 @@ export default async function ProductsPage() {
 }
 ```
 
+<hr>
+
 app/products/_lib/fetcher.ts
 → より大規模なプロジェクトや複数の API エンドポイントがある場合は、`_lib` フォルダを作成し、その中に各 API のフェッチャーを配置することができる。
 
@@ -135,6 +137,8 @@ export default async function ProductsPage() {
   );
 }
 ```
+
+<hr>
 
 app/products/_lib/fetcher/product.ts
 →　さらに細分化が必要な場合は、`_lib` フォルダ内に各 API エンドポイントごとにサブフォルダを作成し、その中にフェッチャーを配置することができる。
